@@ -1,0 +1,17 @@
+header{
+    background-color: #B99175;
+    color: #443D36;
+    font-family: Georgia;
+
+}
+.logo{
+    width: 9rem;
+    height: auto;
+    display: inline-block;
+    margin: 20 auto;
+}
+.title{
+    color: #443D36;
+    display: inline-block;
+    margin: auto 0;
+}
