@@ -1,17 +1,122 @@
+body{
+    font-family: Georgia;
+}
 header{
     background-color: #B99175;
     color: #443D36;
-    font-family: Georgia;
+    border: 3px solid #443D36;
+}
 
+.navbar-brand{
+    margin: 0;
 }
 .logo{
     width: 9rem;
     height: auto;
     display: inline-block;
-    margin: 20 auto;
+    padding: 0.5rem;
 }
 .title{
     color: #443D36;
     display: inline-block;
-    margin: auto 0;
+    margin: 0;
+    text-align: left;
+}
+@media (max-width: 434px) {
+  .title {
+    display: none;
+  }
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    color: #443D36;
+    background-color: #FFF0D8;
+    border-color: #443D36;
+    border-width: 2px;
+    line-height: 2.5;
+}
+.btn-primary:hover {
+  background-color: #FED19C;
+  color: #443D36;
+  border-color: #443D36;
+}
+#bg-pic{
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border-right:3px solid #443D36;
+    border-left: 3px solid #443D36;
+}
+@media (max-width: 800px) {
+  #bg-pic {
+    background-position: right center;
+  }
+}
+    h1{
+        color: #443D36;
+        font-weight: bold;
+        padding: 4rem 1rem;
+        text-align: center;
+    }
+    #clucking{
+        padding: 1rem
+    }
+hr {
+    
+    opacity: 1;
+    border: none;
+    border-top: 3px solid #443D36;
+    margin: 0;
+}
+#bg-flat{
+    background-color: #6C584B;
+    color: #FFF0D8;
+    outline-color: #443D36;
+    border-right:3px solid #443D36;
+    border-left: 3px solid #443D36;
+}
+h2{
+    padding: 2rem 0;
+}
+h3{
+    padding: 1rem 0;
+}
+.img-bordered{
+    border-left: 1.5px solid #443D36;
+    border-right: 1.5px solid #443D36;
+    border-top: 1.5px solid #443D36;
+    margin: 0 auto;
+}
+.text-bg{
+    background-color: #FFF0D8;
+    color: #443D36;
+    padding: 1rem;
+    margin: 0 auto 1.5rem;
+    max-width: 600px;
+    border-left: 1.5px solid #443D36;
+    border-right: 1.5px solid #443D36;
+    border-bottom: 1.5px solid #443D36;
+}
+.sub-heading{
+    text-align: center;
+}
+footer{
+    background-color: #B99175;
+    color: #443D36;
+    border: solid 3px #443D36
+}
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #FFF0D8;         /* Change to your desired hover color */
+  text-decoration: underline; /* Optional: add underline on hover */
 }

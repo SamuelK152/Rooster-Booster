@@ -1,0 +1,14 @@
+1. Curious Explorer (About Us)
+	As a new visitor to the Rooster Booster website, 
+	I want to learn what Rooster Booster is and how it works,
+	So that I can understand if a feather-powered wake-up service is right for me.
+
+2. Decisive Customer (Cluckscriptions)
+	As someone interested in starting a new morning routine, 
+	I want to compare and select from the available Rooster Booster packages,
+	So that I can confidently purchase the service that best suits my needs and budget.
+
+3. Customer with Questions (Cluck at Us)
+	As a potential customer with questions, 
+	I want to easily find and fill out the contact form,
+	So that I can ask questions or request more information before committing to a package.
