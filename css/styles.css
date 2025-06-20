@@ -41,6 +41,11 @@ header{
   color: #443D36;
   border-color: #443D36;
 }
+.disabled{
+    background-color: #FED19C;
+    color: #443D36;
+    border-color: #443D36;
+}
 #bg-pic{
     background-image: url('../images/background.png');
     background-size: cover;
