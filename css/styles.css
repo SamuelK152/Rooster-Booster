@@ -1,19 +1,22 @@
+html{
+    height: 100%;
+}
 body{
     font-family: Georgia;
+    display: flex;
+    flex-direction: column;
 }
 header{
     background-color: #B99175;
     color: #443D36;
     border: 3px solid #443D36;
 }
-
-.navbar-brand{
-    margin: 0;
-}
 .logo{
+    max-width: calc(7rem + 10%vw);
+    min-width: 6rem;
     width: 9rem;
     height: auto;
-    display: inline-block;
+    display: block;
     padding: 0.5rem;
 }
 .title{
@@ -21,6 +24,7 @@ header{
     display: inline-block;
     margin: 0;
     text-align: left;
+    font-weight: bold;
 }
 @media (max-width: 434px) {
   .title {
@@ -46,6 +50,9 @@ header{
     color: #443D36;
     border-color: #443D36;
 }
+main{
+    flex: 1;
+}
 #bg-pic{
     background-image: url('../images/background.png');
     background-size: cover;
@@ -53,6 +60,7 @@ header{
     background-position: right center;
     width: 100%;
     height: 100vh;
+    min-height: 704px;
     justify-content: center;
     border-right:3px solid #443D36;
     border-left: 3px solid #443D36;
@@ -62,15 +70,12 @@ header{
     background-position: right center;
   }
 }
-    h1{
+
+    #page-top{
         color: #443D36;
         font-weight: bold;
         padding: 4rem 1rem;
         text-align: center;
-    }
-    #page-top{
-        padding: 1rem
-        
     }
 hr {
     
@@ -85,13 +90,13 @@ hr {
     padding: 2rem;
     border: 2px solid #443D36;
     width: 60%;
-    margin: 3rem 3.5rem auto;
+    margin: 1rem 3.5rem;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
-@media (max-width: 540px) {
+@media (max-width: 991px) {
     .jacket {
         width: 100dvw;
-        margin: 3rem auto;
+        margin: auto;
     }
 }
 .nav-pills .nav-link {
@@ -122,21 +127,35 @@ h2{
 h3{
     padding: 1rem 0;
 }
+.cluck-box{
+    margin-bottom: 1.5rem;
+}
 .img-bordered{
     border-left: 1.5px solid #443D36;
     border-right: 1.5px solid #443D36;
     border-top: 1.5px solid #443D36;
     margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    display: block;
 }
 .text-bg{
     background-color: #FFF0D8;
     color: #443D36;
     padding: 1rem;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 1.5rem auto;
     max-width: 600px;
     border-left: 1.5px solid #443D36;
     border-right: 1.5px solid #443D36;
     border-bottom: 1.5px solid #443D36;
+}
+@media (max-width: 991px) {
+    .text-bg {
+        margin: 0 calc(1rem+5vw);
+    }
+    .img-bordered{
+        margin: 0 calc(1rem+5vw);
+    }
 }
 .sub-heading{
     text-align: center;
@@ -144,7 +163,10 @@ h3{
 footer{
     background-color: #B99175;
     color: #443D36;
-    border: solid 3px #443D36
+    border: solid 3px #443D36;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
 .footer-link {
   color: inherit;
@@ -152,6 +174,6 @@ footer{
 }
 
 .footer-link:hover {
-  color: #FFF0D8;         /* Change to your desired hover color */
-  text-decoration: underline; /* Optional: add underline on hover */
+  color: #FFF0D8;
+  text-decoration: underline;
 }
