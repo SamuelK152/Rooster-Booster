@@ -2,6 +2,10 @@
 
 **Author:** Sam Kehoe
 
+## GitHub Pages
+
+https://samuelk152.github.io/Rooster-Booster/
+
 ## Overview
 
 Rooster Booster is a playful, responsive web project that lets users order personalized rooster wake-up calls! The site features information about the service, customer testimonials, and interactive forms for users to subscribe to a Cluckscription or contact the company.
