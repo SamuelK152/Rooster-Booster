@@ -5,6 +5,8 @@ body{
     font-family: Georgia;
     display: flex;
     flex-direction: column;
+    background-color: #443D36;
+    min-height: 100vh;
 }
 header{
     background-color: #B99175;
@@ -51,7 +53,7 @@ header{
     border-color: #443D36;
 }
 main{
-    flex: 1;
+    flex: 1 0 auto;
 }
 #bg-pic{
     background-image: url('../images/background.png');
@@ -59,16 +61,11 @@ main{
     background-repeat: no-repeat;
     background-position: right center;
     width: 100%;
-    height: 100vh;
+    /*height: 100vh;*/
     min-height: 704px;
     justify-content: center;
     border-right:3px solid #443D36;
     border-left: 3px solid #443D36;
-}
-@media (max-width: 800px) {
-  #bg-pic {
-    background-position: right center;
-  }
 }
 
     #page-top{
@@ -93,7 +90,7 @@ hr {
     margin: 1rem 3.5rem;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
-@media (max-width: 991px) {
+@media (max-width: 1079px) {
     .jacket {
         width: 100dvw;
         margin: auto;

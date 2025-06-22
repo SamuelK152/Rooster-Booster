@@ -65,7 +65,11 @@
       <div id="bg-pic">
         <h1 id="page-top" class="display-4">Order Now</h1>
         <div class="jacket">
-          <form class="row g-3">
+          <form
+            class="row g-3"
+            action="https://formspree.io/f/xgvynvdn"
+            method="POST"
+          >
             <div class="col-md-6">
               <label for="FirstNameValidation" class="form-label"
                 >First name</label
@@ -87,6 +91,16 @@
                 class="form-control"
                 id="LastNameValidation"
                 value=""
+                required
+              />
+            </div>
+            <div class="col-md-12">
+              <label for="emailvalidation" class="form-label">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="emailvalidation"
                 required
               />
             </div>

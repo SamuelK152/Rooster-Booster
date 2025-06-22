@@ -19,11 +19,12 @@ Rooster Booster is a playful, responsive web project that lets users order perso
 - HTML5
 - CSS
 - Bootstrap 5
+- Formspree
 
 ## Ideas for Future Improvement
 
 1. Integrate a payment gateway for real online orders.
 2. Include a scheduling calendar for users to pick their preferred wake-up date and time.
-3. Implement a backend (Node.js, Python, etc.) to store and manage orders.
+3. Implement a backend (Node.js, Python, etc.) to store and manage orders beyond Formspree's limitations.
 
 ---
