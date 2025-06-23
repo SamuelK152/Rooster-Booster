@@ -13,15 +13,30 @@ header{
     color: #443D36;
     border: 3px solid #443D36;
 }
+.navbar{
+    height: 10vw;
+    min-height: 7rem
+}
+.navbar-nav{
+    background-color: #B99175;
+    color: #443D36;
+    width: fit-content;
+}
 .logo{
-    max-width: calc(7rem + 10%vw);
-    min-width: 6rem;
-    width: 9rem;
+    max-height: 10vw;
+    min-height: 6rem;
     height: auto;
     display: block;
     padding: 0.5rem;
 }
-.title{
+.title1{
+    color: #443D36;
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+}
+.title2{
     color: #443D36;
     display: inline-block;
     margin: 0;
@@ -29,7 +44,12 @@ header{
     font-weight: bold;
 }
 @media (max-width: 434px) {
-  .title {
+  .title1 {
+    display: none;
+  }
+}
+@media (min-width: 434px) {
+  .title2 {
     display: none;
   }
 }
@@ -52,6 +72,14 @@ header{
     color: #443D36;
     border-color: #443D36;
 }
+@media (max-width:992px){
+    .menu-btn{
+        margin: 1rem;
+    }
+    .navbar-nav{
+        border: 3px solid #443D36;
+    }
+}
 main{
     flex: 1 0 auto;
 }
@@ -67,13 +95,18 @@ main{
     border-right:3px solid #443D36;
     border-left: 3px solid #443D36;
 }
-
+ #page-top{
+    color: #443D36;
+    font-weight: bold;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+@media(max-width:576px){
     #page-top{
-        color: #443D36;
-        font-weight: bold;
-        padding: 4rem 1rem;
-        text-align: center;
+        font-size: calc(1rem + 2vh);
+        padding: 1rem auto;
     }
+}
 hr {
     
     opacity: 1;
